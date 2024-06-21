@@ -1,0 +1,158 @@
+  .weather{
+    font-size: 20px;
+}
+small{
+    font-size: 10px;
+  
+    color: rgb(191, 193, 200);
+    
+}
+.demo{
+    display: flex;
+}
+img{
+    display: inline-block;
+    margin-right: 10px;
+}
+li a.links{
+    text-decoration: none;
+    border: 2px solid #009AD8;
+    border-radius: 30px;
+    padding: 5px 25px !important;
+    font-size: 14px;
+    color: #009AD8 !important;
+    text-align: center;
+}
+li a.link{
+    text-decoration: none;
+    border: 2px solid #0000;
+    border-radius: 30px;
+    padding: 5px 25px !important;
+    font-size: 14px;
+    color: #ffff;
+    transition: all 0.5s;
+    text-align: center;
+}
+li a:hover.link{
+    border-color: #009AD8;
+    color: #009AD8;
+}
+.location{
+    width: 100%;
+  height: 400px;
+  margin-top: 7%;
+    background-image: url(../banner.png);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+  padding: 70px 0;
+}
+#submit{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0px 40px;
+    color: white !important;
+    background-color: rgb(0, 154, 216);
+    border-radius: 30px;
+    border: none;
+}
+#search{
+    background-color: rgb(30, 32, 43);
+    padding: 20px 50px 20px 20px;
+}
+form input{
+    border-style:none ;
+    outline: none;
+    color: white;
+    margin-top: 20px;
+}
+#subscrib{
+    background-color: rgb(30, 32, 43);
+    padding: 20px 50px 20px 20px;
+} 
+#sub{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0px 40px;
+    color: white !important;
+    background-color: rgb(0, 154, 216);
+    border-radius: 30px;
+    border: none;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: #000B11;
+    transition: all 1s;
+}
+.icon:hover{
+    background-color: rgb(0, 154, 216);
+    i{
+        color: #fff;
+    }
+}
+.contact a{
+    color:rgb(191, 193, 200);
+}
+.colro-txt{
+    color:rgb(191, 193, 200); 
+}
+.map{
+    height: 200px;
+}
+.main-cont{
+    background-color: #1E202B;
+}
+.col-md-5{
+    background-color: #262936;
+}
+.contact{
+    background-color: #262936; 
+}
+.col-md-6 input{
+    border: 2px solid rgb(57, 60, 72);
+    color: white;
+    transition: all 0.5s;
+}
+.col-md-6 input:hover{
+    border: 2px solid #009AD8;
+}
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+    padding: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(57, 60, 72);
+    border-image: initial;
+    background: transparent;
+    min-height: 150px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+textarea:hover{
+    border-color: #009AD8;
+}
+#message{
+    color: white;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    background: rgb(0, 154, 216);
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+

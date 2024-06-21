@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/media-quaery.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg py-4 bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white demo" href="#">
+                <img src="logo.png" alt="logo">
+                <div>
+                    <h1 class="weather">Weather</h1>
+                    <small>tagline goes here</small>
+                </div>
+            </a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-center"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active links" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="location">
+        <div class="container">
+            <form action="" class="position-relative mb-5 border-0">
+                <input type="text" class="w-100 rounded-5" placeholder="Find your location..." id="search">
+                <input type="button" value="Find" id="submit">
+            </form>
+        </div>
+    </div>
+
+    <section class="weather-day bg-black">
+        <div class="container">
+            <div class="row" id="forecast">
+               
+            </div>
+        </div>
+    </section>
+
+  </section>
+  <div class="bg-dark py-4">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-8 position-relative">
+            <form action="#" class="subscribe-form">
+              <input type="text" placeholder="Enter your email to subscribe..." id="subscrib" class="w-100 rounded-5">
+              <input type="submit" value="Subscribe" id="sub">
+            </form>
+          </div>
+  <div class="col-md-3 d-flex justify-content-center align-items-center flex-row gap-3">
+  
+    <div class="icon  rounded-circle d-grid">
+      <a href="" class="m-auto"><i class="fa-brands fa-facebook-f m-auto fa-xs"></i></a>
+    </div>
+    <div class="icon  rounded-circle d-grid">
+      <a href="" class="m-auto"><i class="fa-brands fa-twitter m-auto"></i></a>
+    </div>
+    <div class="icon  rounded-circle d-grid">
+      <a href="" class="m-auto"><i class="fa-brands fa-google-plus m-auto"></i></a>
+    </div>
+    <div class="icon  rounded-circle d-grid">
+      <a href="" class="m-auto"><i class="fa-brands fa-pinterest " aria-hidden="true"></i></a>
+    </div>
+    
+  </div>
+  </div>
+  <p class="text-white-50 mt-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+  </div>
+  </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
